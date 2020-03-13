@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/layoutPrincipal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nomDescription"
+        android:text="Saisissez votre nom :"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        tools:ignore="Autofill,LabelFor,PxUsage,TextFields" />
+
+    <TextView
+        android:id="@+id/prenomDescription"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Saississez votre prenom"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/prenom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        tools:ignore="Autofill,LabelFor,PxUsage,TextFields" />
+
+    <TextView
+        android:id="@+id/txt_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/valider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valider" />
+
+    <Button
+        android:id="@+id/addCompteur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+" />
+
+    <TextView
+        android:id="@+id/txt_Cpt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+</LinearLayout>
